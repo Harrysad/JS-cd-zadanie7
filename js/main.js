@@ -26,9 +26,9 @@ function iloscPrzeczytanych(ksiazki) {
 
     ksiazki.forEach(ksiazka => {
         if (ksiazka.przeczytana) {
-            console.log(ksiazka.opiszKsiazke());
             licznik++;
         }
+        console.log(ksiazka.opiszKsiazke());
     });
 
     return licznik;
